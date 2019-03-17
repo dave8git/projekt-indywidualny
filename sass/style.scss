@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #c7c7c7;
+    margin: 0;
 }
 .container {
 	margin: auto;
@@ -69,6 +70,9 @@ body {
 .sidebar-menu-item {
     margin-left: 4px;
     padding-top: 15px;
+}
+.fa-bars-rwd {
+    visibility: hidden;
 }
 /* section manager */
 .sidebar-manager-photo {
@@ -508,6 +512,9 @@ body {
     }
     .name-to-link-hidden {
         display: none;
+    }
+    .fa-bars-rwd {
+        visibility: visible;
     }
     .col-m-1n {width: 8.334%}
     .col-m-2n {width: 16.667%}
